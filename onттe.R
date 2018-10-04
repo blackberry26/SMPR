@@ -29,7 +29,7 @@
  }
 
 
-  res<-sample(c(1:150),15,replace=TRUE)
+  res<-sample(c(1:150),30,replace=TRUE)
   xl <- iris[res, 3:5]
   colors <- c("setosa" = "red", "versicolor" = "green3", "virginica" = "blue")
   plot(iris[res, 3:4], pch = 21, bg = colors[xl$Species], col = colors[xl$Species],asp=1)
