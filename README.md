@@ -36,5 +36,3 @@
 [Code](https://github.com/blackberry26/SMPR/blob/master/on%D1%82%D1%82e.R)
 
  # Метод k ближайших соседей(KNN)
- ![knn](https://user-images.githubusercontent.com/43415122/46460966-c3a64400-c7bd-11e8-8133-af2cd6ebef62.png)
-
