@@ -53,5 +53,5 @@
 - примитивная оценка близости
 - в случае одинаковых весов классов алгоритм выбирает любой
 
-[Реализация кода]
+[Code](https://github.com/blackberry26/SMPR/blob/master/knn.R)
 ![photofacefun_com_1539846957](https://user-images.githubusercontent.com/43415122/47137301-7f836b00-d2b6-11e8-99d9-f9f448738a6e.jpg)
