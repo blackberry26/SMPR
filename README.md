@@ -54,4 +54,5 @@
 - в случае одинаковых весов классов алгоритм выбирает любой
 
 [Code](https://github.com/blackberry26/SMPR/blob/master/knn.R)
-![photofacefun_com_1539846957](https://user-images.githubusercontent.com/43415122/47137301-7f836b00-d2b6-11e8-99d9-f9f448738a6e.jpg)
+![photofacefun_com_1539847206](https://user-images.githubusercontent.com/43415122/47137513-12bca080-d2b7-11e8-9b6d-ca33208f367b.jpg)
+
