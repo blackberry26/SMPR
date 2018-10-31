@@ -66,7 +66,7 @@
 
 **График зависимости LOO(при k=6)**
 
-
+![default](https://user-images.githubusercontent.com/43415122/47803202-028ad380-dd43-11e8-8c8f-fb2afe6d598b.png)
 [Code](https://github.com/blackberry26/SMPR/blob/master/knn.R)
 ![photofacefun_com_1539847206](https://user-images.githubusercontent.com/43415122/47137513-12bca080-d2b7-11e8-9b6d-ca33208f367b.jpg)
 
