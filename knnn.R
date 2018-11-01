@@ -58,7 +58,7 @@ for(k in Ox) {
   
   if(LOO < LOOmin) {           
     LOOmin <- LOO
-    kmint <- k
+    kmin <- k
   }
 }
 
