@@ -66,6 +66,7 @@
 
 **График зависимости LOO(при k=6)**
 
+![default](https://user-images.githubusercontent.com/43415122/47837941-72867180-ddb6-11e8-839a-6e8e56a779b5.png)
 
 
 # Метод k взвешенных ближайших соседей (KWNN)
