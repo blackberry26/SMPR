@@ -66,8 +66,7 @@
 
 **График зависимости LOO(при k=6)**
 
-![default](https://user-images.githubusercontent.com/43415122/47837941-72867180-ddb6-11e8-839a-6e8e56a779b5.png)
-![photofacefun_com_1541056584](https://user-images.githubusercontent.com/43415122/47838076-e32d8e00-ddb6-11e8-8cdd-cc902cf61209.jpg)
+![default](https://user-images.githubusercontent.com/43415122/47837941-72867180-ddb6-11e8-839a-6e8e56a779b5.png) ![photofacefun_com_1541056584](https://user-images.githubusercontent.com/43415122/47838076-e32d8e00-ddb6-11e8-8cdd-cc902cf61209.jpg)
 
 
 
