@@ -57,7 +57,7 @@
 
 
 ![47304893-94eaf300-d630-11e8-877f-7b6791c5117d](https://user-images.githubusercontent.com/43415122/47796964-72469180-dd36-11e8-9f30-b840f4d35373.png)
-[code]https://github.com/blackberry26/SMPR/blob/master/knn.R
+[code](https://github.com/blackberry26/SMPR/blob/master/knn.R)
 
 **LOO(leave-one-out) для Knn**
 **LOO**(оценка скользящего контроля) - проверка, которая необходима, чтобы оценить оптимальность алгоритма(выявить при каких *k* оптимален ) и на сколько он ошибается.
@@ -68,7 +68,7 @@
 **График зависимости LOO(при k=6)**
 
 ![default](https://user-images.githubusercontent.com/43415122/47837941-72867180-ddb6-11e8-839a-6e8e56a779b5.png) ![photofacefun_com_1541056584](https://user-images.githubusercontent.com/43415122/47838076-e32d8e00-ddb6-11e8-8cdd-cc902cf61209.jpg)
-[code]https://github.com/blackberry26/SMPR/blob/master/knnn.R
+[code](https://github.com/blackberry26/SMPR/blob/master/knnn.R)
 
 
 # Метод k взвешенных ближайших соседей (KWNN)
