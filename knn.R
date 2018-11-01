@@ -35,7 +35,7 @@ for(i in seq(0, 7, 0.1))
     
     z <- c(i, j) 
 xl <- iris[, 3:5]
-class <- kNN(xl, z, k=9) 
+class <- kNN(xl, z, k=6) 
 points(z[1], z[2], pch = 1, bg = colors[class], asp = 1,col=colors[class]) 
   }
 }
