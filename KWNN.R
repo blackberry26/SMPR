@@ -45,7 +45,7 @@ LOOKWNN <- function(classificator){                      # Метод сколь
     for (i in 1:150) {
       x_el <-c(iris[i, 3], iris[i, 4])                      # i-й элемент выборки
       x_sample <- iris[-i, 3:5]                             # Выборка без i-го элемента
-      class <- classificator(x_sample, x_el, k=9, q) 
+      class <- classificator(x_sample, x_el, k=6, q) 
       
       if (iris[i, 5] != class) { 
         Q <- Q + 1
