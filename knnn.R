@@ -66,5 +66,6 @@ print(Ox)
 print(Oy)
 print(kmin)
 
-lines(Ox, Oy, pch = 8, bg = "black", col = "blue")
-points(kmin, LOOmin, pch = 21, bg = "black", col = "black")
+lines(Ox, Oy, pch = 8, bg = "black", col = "black")
+points(kmin, LOOmin, pch = 21, bg = "red", col = "red")
+label = paste("   K = ", kmin, "\n", "   LOO = ", LOOmin, sep = "")
