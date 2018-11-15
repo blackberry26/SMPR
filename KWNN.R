@@ -20,7 +20,7 @@ sortObjectsByDist <- function(xl, z, metricFunction = euclideanDistance)
   return (orderedXl);
 }
 
-KWNN <- function(xl, z, k, q) {                             # Применеям метод kNN 
+KWNN <- function(xl, z, k, q) {                             
   orderedXl <- sortObjectsByDist(xl, z, euclideanDistance)  # Сортируем выборку согласно классифицируемого объекта и расстояния
   n <- dim(orderedXl)[2] - 1                                # Берём размерность по столбцам
   classes <- orderedXl[1:k, n + 1]                          # Получаем класс первых k соседей               
@@ -57,8 +57,8 @@ LOOKWNN <- function(classificator){                      # Метод сколь
   return (LOO)
 }
 
-arr <- LOOKWNN(KWNN)
-p = which(arr == min(arr))
-arr2 <- (seq(from = 0.0, to = 1.0, by = 0.05))
-plot(arr2, arr, type = "l", xlab = "q", ylab="LOO", main = "LOO KWNN")
-points(arr2[p], arr[p], pch = 19, col = "red")
+mass <- LOOKWNN(KWNN)
+p = which(mass == min(mass))
+mass2 <- (seq(from = 0.0, to = 1.0, by = 0.05))
+plot(mass2, mass, type = "l", xlab = "q", ylab="LOO", main = "LOO KWNN")
+points(mass2[p], mass[p], pch = 19, col = "red")
