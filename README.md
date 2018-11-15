@@ -123,6 +123,18 @@
 
 *h* -ширина окна,задается априори либо с помощью LOO(h).
 
+Чаще всего применяются 5 типов ядер:
+
+ - Прямоугольное ![n](https://user-images.githubusercontent.com/43415122/48536606-c2396280-e8b7-11e8-8f66-6bccab278452.png)
+ - Квартическое ![12](https://user-images.githubusercontent.com/43415122/48536623-cfeee800-e8b7-11e8-9214-e253600fb9c5.png)
+ - Треугольное  ![1](https://user-images.githubusercontent.com/43415122/48536643-dd0bd700-e8b7-11e8-9e4d-df0d859c310f.png)
+ - Епанечникова ![123](https://user-images.githubusercontent.com/43415122/48536659-e72dd580-e8b7-11e8-9046-8053c209ddf3.png)
+ - Гауссовское (нормальное распределение)
+
+
+
+
+
 **Достоинства**
    
  - Простота реализации.
