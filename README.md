@@ -129,7 +129,10 @@
  - Квартическое ![12](https://user-images.githubusercontent.com/43415122/48536623-cfeee800-e8b7-11e8-9214-e253600fb9c5.png)
  - Треугольное  ![1](https://user-images.githubusercontent.com/43415122/48536643-dd0bd700-e8b7-11e8-9e4d-df0d859c310f.png)
  - Епанечникова ![123](https://user-images.githubusercontent.com/43415122/48536659-e72dd580-e8b7-11e8-9046-8053c209ddf3.png)
- - Гауссовское (нормальное распределение)
+ - Гауссовское (нормальное распределение) ![pw_png gaussian](https://user-images.githubusercontent.com/43415122/48887354-a98cf780-ee37-11e8-8978-e4e4ff1e3bc9.png)
+ 
+ 
+ 
 
 
 
