@@ -138,6 +138,7 @@
  - Гауссовское (нормальное распределение) ![pw_png gaussian](https://user-images.githubusercontent.com/43415122/48887354-a98cf780-ee37-11e8-8978-e4e4ff1e3bc9.png)
  
   **Вывод**: Среди всех классифицированных ядер больше всего выделяется гауссовское ядро. Оно однозначно разделило классы на всей плоскости.
+  
  [Code](https://github.com/blackberry26/SMPR/blob/master/PW.R)
 
 
