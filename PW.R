@@ -97,7 +97,7 @@ LOO = function(xl,class) {
 
 
 par(mfrow = c(1, 2))
-colors = c("setosa" = "red", "versicolor" = "green", "virginica" = "blue", "NA" = "NA")
+colors = c("setosa" = "red", "versicolor" = "green", "virginica" = "blue", "No" = "No")
 xl = iris[, 3:5] 
 class = iris[, 5]
 LOO(xl,class)
