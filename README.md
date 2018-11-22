@@ -126,9 +126,15 @@
 Чаще всего применяются 5 типов ядер:
 
  - Прямоугольное ![n](https://user-images.githubusercontent.com/43415122/48536606-c2396280-e8b7-11e8-8f66-6bccab278452.png)
+ ![pw_png rect](https://user-images.githubusercontent.com/43415122/48887439-ece76600-ee37-11e8-9862-d417e3cab634.png)
+
  - Квартическое ![12](https://user-images.githubusercontent.com/43415122/48536623-cfeee800-e8b7-11e8-9214-e253600fb9c5.png)
- - Треугольное  ![1](https://user-images.githubusercontent.com/43415122/48536643-dd0bd700-e8b7-11e8-9e4d-df0d859c310f.png)
+ ![pw_png quart](https://user-images.githubusercontent.com/43415122/48887459-f83a9180-ee37-11e8-9115-6e975c2bbf86.png)
+
+ - Треугольное  ![1](https://user-images.githubusercontent.com/43415122/48536643-dd0bd700-e8b7-11e8-9e4d-df0d859c310f.png) ![pw_png triangle](https://user-images.githubusercontent.com/43415122/48887418-df31e080-ee37-11e8-81fd-3e3dae810af1.png)
+
  - Епанечникова ![123](https://user-images.githubusercontent.com/43415122/48536659-e72dd580-e8b7-11e8-9046-8053c209ddf3.png)
+ ![pw_png ep](https://user-images.githubusercontent.com/43415122/48887467-025c9000-ee38-11e8-83fb-e5a6abb25eb6.png)
  - Гауссовское (нормальное распределение) ![pw_png gaussian](https://user-images.githubusercontent.com/43415122/48887354-a98cf780-ee37-11e8-8978-e4e4ff1e3bc9.png)
  
  
