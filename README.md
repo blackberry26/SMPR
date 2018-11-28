@@ -185,11 +185,16 @@
 1. Инициализация: ![default](https://user-images.githubusercontent.com/43415122/49169037-f85ff300-f349-11e8-8c91-bb32fb2ab2b7.png)для всех ![default](https://user-images.githubusercontent.com/43415122/49169069-0ada2c80-f34a-11e8-88f0-034964a62a80.png).
 2. Повторять пункты 3-4, пока ![default](https://user-images.githubusercontent.com/43415122/49169127-2cd3af00-f34a-11e8-90c3-8d41a5fa8635.png)(то есть пока процесс не стабилизируется):
  3.  Выбрать очередной объект x_i из выборки;
- 4.Если ![default](https://user-images.githubusercontent.com/43415122/49169229-673d4c00-f34a-11e8-8fc8-7e2ce002a164.png), то ![default](https://user-images.githubusercontent.com/43415122/49169291-86d47480-f34a-11e8-8764-d6ccc3b0d41a.png).
- 5.Вернуть значение ![default](https://user-images.githubusercontent.com/43415122/49169353-a23f7f80-f34a-11e8-90ba-523f6134ee1b.png) для всех ![default](https://user-images.githubusercontent.com/43415122/49169402-b8e5d680-f34a-11e8-801e-4af1469ab30a.png).
- 6.Пока число ошибок на выборке не окажется достаточно мало.
-
-
-
+ 4.  Если ![default](https://user-images.githubusercontent.com/43415122/49169229-673d4c00-f34a-11e8-8fc8-7e2ce002a164.png), то ![default](https://user-images.githubusercontent.com/43415122/49169291-86d47480-f34a-11e8-8764-d6ccc3b0d41a.png).
  
+ 5.  Вернуть значение ![default](https://user-images.githubusercontent.com/43415122/49169353-a23f7f80-f34a-11e8-90ba-523f6134ee1b.png) для всех ![default](https://user-images.githubusercontent.com/43415122/49169402-b8e5d680-f34a-11e8-801e-4af1469ab30a.png).
  
+ 6.  Пока число ошибок на выборке не окажется достаточно мало.
+
+**Достоинства**:
+ - Метод прост для понимания и алгоритмической реализации;
+ - Порождает потоковый алгоритм;
+ - Хранит лишь часть выборки, следовательно, экономит память.
+ 
+ **Недостатки**:
+ - Порождаемый алгоритм медленно сходится
