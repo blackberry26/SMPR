@@ -166,7 +166,23 @@
  # Метод потенциальных функций (PF)
 Если в методе парзеновского окна центр окна поместить в обучающие объекты, то получим метод потенциальных функций.
 Он позволяет с помощью простого алгоритма оценивать вес («важность») объектов обучающей выборки при решении задачи классификации.
-Пусть имеется пространство объектов X и конечное множество классов Y. На множестве X задана функция расстояния \rho: X \times X \to [0, + \infty]. Каждый объект из X относится к некоторому классу из Y посредством отображения y^*:~X \to Y, 
+Пусть имеется пространство объектов X и конечное множество классов Y. На множестве X задана функция расстояния ![default](https://user-images.githubusercontent.com/43415122/49168353-57bd0380-f348-11e8-9c6a-51e763adecba.png).
+Каждый объект из X относится к некоторому классу из Y посредством отображения ![default](https://user-images.githubusercontent.com/43415122/49168416-7d4a0d00-f348-11e8-909f-9441410cba17.png).
+Пусть также задана обучающая выборка пар «объект—ответ»: ![default](https://user-images.githubusercontent.com/43415122/49168482-a074bc80-f348-11e8-963e-77c4765edb10.png).
+
+Требуется построить алгоритм  ![default](https://user-images.githubusercontent.com/43415122/49168564-ce5a0100-f348-11e8-86f7-f7049cdbdc50.png), который по заданной выборке  ![default](https://user-images.githubusercontent.com/43415122/49168592-e0d43a80-f348-11e8-8c51-286156b22608.png) аппроксимирует отображение ![default](https://user-images.githubusercontent.com/43415122/49168627-f9dceb80-f348-11e8-86a3-4886eb92ce44.png).
+
+ **Алгоритм**
+*Вход*:Обучающая выборка из l пар «объект-ответ» ![default](https://user-images.githubusercontent.com/43415122/49168732-36a8e280-f349-11e8-8ce2-c8332bb410d4.png)
+*Выход*: Значения параметров ![default](https://user-images.githubusercontent.com/43415122/49168800-5fc97300-f349-11e8-9b9b-561b29388fd6.png) для всех ![default](https://user-images.githubusercontent.com/43415122/49168978-cd759f00-f349-11e8-8874-b16173bdc53b.png).
+*Описание алгоритма*:
+1. Инициализация: ![default](https://user-images.githubusercontent.com/43415122/49169037-f85ff300-f349-11e8-8c91-bb32fb2ab2b7.png)для всех ![default](https://user-images.githubusercontent.com/43415122/49169069-0ada2c80-f34a-11e8-88f0-034964a62a80.png).
+2. Повторять пункты 3-4, пока ![default](https://user-images.githubusercontent.com/43415122/49169127-2cd3af00-f34a-11e8-90c3-8d41a5fa8635.png)(то есть пока процесс не стабилизируется):
+ 3.  Выбрать очередной объект x_i из выборки;
+ 4.Если ![default](https://user-images.githubusercontent.com/43415122/49169229-673d4c00-f34a-11e8-8fc8-7e2ce002a164.png), то ![default](https://user-images.githubusercontent.com/43415122/49169291-86d47480-f34a-11e8-8764-d6ccc3b0d41a.png).
+ 5.Вернуть значение ![default](https://user-images.githubusercontent.com/43415122/49169353-a23f7f80-f34a-11e8-90ba-523f6134ee1b.png) для всех ![default](https://user-images.githubusercontent.com/43415122/49169402-b8e5d680-f34a-11e8-801e-4af1469ab30a.png).
+ 6.Пока число ошибок на выборке не окажется достаточно мало.
+
 
 
  
