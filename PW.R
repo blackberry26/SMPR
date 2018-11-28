@@ -78,7 +78,7 @@ LOO = function(xl,class) {
   
   loo = loo / n
   x = seq(0.1,2,0.1)
-  plot(x, loo,main ="LOO fдля PW(H)", xlab="h", ylab="LOO", type = "l")
+  plot(x, loo,main ="LOO для PW(H)", xlab="h", ylab="LOO", type = "l")
   
   min=which.min(loo)
   lOOmin=round(loo[min],3)
