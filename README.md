@@ -134,7 +134,7 @@
  - Квартическое ![12](https://user-images.githubusercontent.com/43415122/48536623-cfeee800-e8b7-11e8-9214-e253600fb9c5.png)
  ![pw_png quart](https://user-images.githubusercontent.com/43415122/48887459-f83a9180-ee37-11e8-9115-6e975c2bbf86.png)
 
- - Треугольное  ![1](https://user-images.githubusercontent.com/43415122/48536643-dd0bd700-e8b7-11e8-9e4d-df0d859c310f.png) ![pw_png triangle](https://user-images.githubusercontent.com/43415122/48887418-df31e080-ee37-11e8-81fd-3e3dae810af1.png)
+ - Треугольное ![default](https://user-images.githubusercontent.com/43415122/49180500-eb50fd00-f365-11e8-88b8-c44ed06dfc0d.png)
 
  - Епанечникова ![t](https://user-images.githubusercontent.com/43415122/49180343-6960d400-f365-11e8-9cfa-4c7ca2fe6bc2.png)
  - Гауссовское (нормальное распределение) ![pw_png gaussian](https://user-images.githubusercontent.com/43415122/48887354-a98cf780-ee37-11e8-8978-e4e4ff1e3bc9.png)
