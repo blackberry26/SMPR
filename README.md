@@ -136,8 +136,7 @@
 
  - Треугольное  ![1](https://user-images.githubusercontent.com/43415122/48536643-dd0bd700-e8b7-11e8-9e4d-df0d859c310f.png) ![pw_png triangle](https://user-images.githubusercontent.com/43415122/48887418-df31e080-ee37-11e8-81fd-3e3dae810af1.png)
 
- - Епанечникова ![123](https://user-images.githubusercontent.com/43415122/48536659-e72dd580-e8b7-11e8-9046-8053c209ddf3.png)
- ![pw_png ep](https://user-images.githubusercontent.com/43415122/48887467-025c9000-ee38-11e8-83fb-e5a6abb25eb6.png)
+ - Епанечникова ![t](https://user-images.githubusercontent.com/43415122/49180343-6960d400-f365-11e8-9cfa-4c7ca2fe6bc2.png)
  - Гауссовское (нормальное распределение) ![pw_png gaussian](https://user-images.githubusercontent.com/43415122/48887354-a98cf780-ee37-11e8-8978-e4e4ff1e3bc9.png)
  
   **Вывод**: Среди всех классифицированных ядер больше всего выделяется гауссовское ядро. Оно однозначно разделило классы на всей плоскости.
