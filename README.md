@@ -129,14 +129,18 @@
 
 Чаще всего применяются 5 типов ядер:
 
- - Прямоугольное ![default](https://user-images.githubusercontent.com/43415122/49180805-cb6e0900-f366-11e8-80af-6e4b1c8d5ea7.png)
+ - Прямоугольное ![68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f522872293d253543667261632537423125374425374232253744253542253743722537432535436c65712673706163653b31253544](https://user-images.githubusercontent.com/43415122/49207845-c9d02f80-f3be-11e8-8b82-d5d57b627f2b.gif)
+
+ ![default](https://user-images.githubusercontent.com/43415122/49180805-cb6e0900-f366-11e8-80af-6e4b1c8d5ea7.png)
 
 
  - Квартическое 
 
- - Треугольное ![default](https://user-images.githubusercontent.com/43415122/49180500-eb50fd00-f365-11e8-88b8-c44ed06dfc0d.png)
+ - Треугольное![ju](https://user-images.githubusercontent.com/43415122/49207873-deacc300-f3be-11e8-9a3b-67513a09f0aa.gif)
 
- - Епанечникова ![default](https://user-images.githubusercontent.com/43415122/49180695-7500ca80-f366-11e8-971a-6d97799f09ad.png)
+ ![default](https://user-images.githubusercontent.com/43415122/49180500-eb50fd00-f365-11e8-88b8-c44ed06dfc0d.png)
+
+ - Епанечникова ![i](https://user-images.githubusercontent.com/43415122/49207889-ee2c0c00-f3be-11e8-9696-b57211d05f28.gif) ![default](https://user-images.githubusercontent.com/43415122/49180695-7500ca80-f366-11e8-971a-6d97799f09ad.png)
  - Гауссовское (нормальное распределение) ![default](https://user-images.githubusercontent.com/43415122/49180753-a4afd280-f366-11e8-9b18-d7154928e105.png)
  
   **Вывод**: Среди всех классифицированных ядер больше всего выделяется гауссовское ядро. Оно однозначно разделило классы на всей плоскости.
