@@ -201,50 +201,29 @@
  
  
  # Сравнение алгоритмов классификации
+
  <table>
-    <tr>
-        <th>Метод<th/>
-        <th>Параметры</th>
-        <th>Величина ошибок</th>
-    </tr>
   <tr>
-        <td> KNN </td>
-        <td> k=6 </td>
-        <td> 0.033 </td>
-    </tr>
-   <tr>
-        <td> KWNN </td>
-        <td> k=9 </td>
-        <td> 0.033 </td>
-    </tr>
-   <tr>
-        <td> PW </td>
-        <td> h=0.4;h=0.1(GS) </td>
-        <td> 0.4 </td>
-    </tr>
-  </table>
+    <th>Метод</th>
+    <th>Параметры</th>
+    <th>Величина ошибок</th>
+  </tr>
+  <tr>
+    <td>KNN</td>
+    <td>k=6</td>
+    <td>0.033</td>
+  </tr>
+  <tr>
+    <td>KWNN</td>
+    <td>k=9</td>
+    <td>0.033</td>
+  </tr>
+  <tr>
+    <td>PW</td>
+    <td>h=0.4;h=0.1(GS)</td>
+    <td>0.4</td>
+  </tr>
   
- 
- <table>
-  <colgroup>
-    <col span="2" style="background:Khaki"><!-- С помощью этой конструкции задаем цвет фона для первых двух столбцов таблицы-->
-    <col style="background-color:LightCyan"><!-- Задаем цвет фона для следующего (одного) столбца таблицы-->
-  </colgroup>
-  <tr>
-    <th>№ п/п</th>
-    <th>Наименование</th>
-    <th>Цена, руб.</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Карандаш цветной</td>
-    <td>20,00</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Линейка 20 см</td>
-    <td>30,00</td>
-  </tr>
 </table>
  
  
