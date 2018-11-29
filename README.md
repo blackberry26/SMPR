@@ -131,8 +131,7 @@
  - Прямоугольное ![default](https://user-images.githubusercontent.com/43415122/49180805-cb6e0900-f366-11e8-80af-6e4b1c8d5ea7.png)
 
 
- - Квартическое ![12](https://user-images.githubusercontent.com/43415122/48536623-cfeee800-e8b7-11e8-9214-e253600fb9c5.png)
- ![pw_png quart](https://user-images.githubusercontent.com/43415122/48887459-f83a9180-ee37-11e8-9115-6e975c2bbf86.png)
+ - Квартическое 
 
  - Треугольное ![default](https://user-images.githubusercontent.com/43415122/49180500-eb50fd00-f365-11e8-88b8-c44ed06dfc0d.png)
 
