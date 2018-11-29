@@ -210,18 +210,17 @@
   <tr>
         <td> KNN </td>
         <td> k=6 </td>
-        <td>0.033</td>
+        <td> 0.033 </td>
     </tr>
    <tr>
         <td> KWNN </td>
         <td> k=9 </td>
-        <td>0.033</td>
+        <td> 0.033 </td>
     </tr>
    <tr>
         <td> PW </td>
-        <td> h=0.4;
-          h=0.1(GS) </td>
-        <td>0.4</td>
+        <td> h=0.4;h=0.1(GS) </td>
+        <td> 0.4 </td>
     </tr>
   </table>
   
