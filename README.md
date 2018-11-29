@@ -134,7 +134,8 @@
  ![default](https://user-images.githubusercontent.com/43415122/49180805-cb6e0900-f366-11e8-80af-6e4b1c8d5ea7.png)
 
 
- - Квартическое 
+ - Квартическое ![rtrt](https://user-images.githubusercontent.com/43415122/49207928-08fe8080-f3bf-11e8-993e-3c4f43ba46dc.gif)
+
 
  - Треугольное![ju](https://user-images.githubusercontent.com/43415122/49207873-deacc300-f3be-11e8-9a3b-67513a09f0aa.gif)
 
