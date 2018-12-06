@@ -271,23 +271,27 @@
 Это специальный случай баесовской классификации, когда предполагается, что плотности всех классов являются многомерными нормальными. В этом случае задача решается аналитически. Сами плотности вычисляются по формуле:
 ![default](https://user-images.githubusercontent.com/43415122/49568915-17a6e380-f93b-11e8-87a9-81553579ea8f.png)
 в которой 
-![6](https://user-images.githubusercontent.com/43415122/49568954-35744880-f93b-11e8-8fc7-1dbcf9a145c7.png)-объект, состоящий из n признаков,
-![u](https://user-images.githubusercontent.com/43415122/49569003-5ccb1580-f93b-11e8-8e1f-914dbeac8c7f.png)-математическое ожидание,
-![f](https://user-images.githubusercontent.com/43415122/49569052-8421e280-f93b-11e8-804b-a04c866ccd59.png)-ковариационная матрица.
+![6](https://user-images.githubusercontent.com/43415122/49568954-35744880-f93b-11e8-8fc7-1dbcf9a145c7.png) -объект, состоящий из n признаков,
+![u](https://user-images.githubusercontent.com/43415122/49569003-5ccb1580-f93b-11e8-8e1f-914dbeac8c7f.png) -математическое ожидание,
+![f](https://user-images.githubusercontent.com/43415122/49569052-8421e280-f93b-11e8-804b-a04c866ccd59.png) -ковариационная матрица.
 
 **Примеры для таких центров и ковариационных матриц:**
 
 
- 1)mu = {0, 0}, cov = {1,0,0,1}
+ **1)mu = {0, 0}, cov = {1,0,0,1}**
+ 
 ![photofacefun_com_1544082445](https://user-images.githubusercontent.com/43415122/49569212-feeafd80-f93b-11e8-97c3-edaedebffee7.jpg)
 
- 2)mu = {0, 0}, cov = {1,1,0,1}
+ **2)mu = {0, 0}, cov = {1,1,0,1}**
+ 
 ![photofacefun_com_1544082939](https://user-images.githubusercontent.com/43415122/49569622-1c6c9700-f93d-11e8-908a-e9190decbcc9.jpg)
 
-3)mu = {0, 0}, cov = {3,0,0,1}
+**3)mu = {0, 0}, cov = {3,0,0,1}**
+
 ![photofacefun_com_1544082684](https://user-images.githubusercontent.com/43415122/49569411-89336180-f93c-11e8-98d1-da7b27903020.jpg)
 
-4)mu = {0, 0}, cov = {1,0,0,3}
+**4)mu = {0, 0}, cov = {1,0,0,3}**
+
 ![photofacefun_com_1544082826](https://user-images.githubusercontent.com/43415122/49569524-d9aabf00-f93c-11e8-85f9-17f491115cb6.jpg)
 
 
