@@ -275,17 +275,16 @@
 ![u](https://user-images.githubusercontent.com/43415122/49569003-5ccb1580-f93b-11e8-8e1f-914dbeac8c7f.png)-математическое ожидание,
 ![f](https://user-images.githubusercontent.com/43415122/49569052-8421e280-f93b-11e8-804b-a04c866ccd59.png)-ковариационная матрица.
 
-Примеры для таких центров и ковариационных матриц:
+**Примеры для таких центров и ковариационных матриц:**
 
-  1)mu = {0, 0}, cov = {1,0,0,1}
-  2)mu = {0, 0}, cov = {1,1,0,1}
-  3)mu = {0, 0}, cov = {3,0,0,1}
-  4)mu = {0, 0}, cov = {1,0,0,3}
-
+ 1)mu = {0, 0}, cov = {1,0,0,1}
 ![photofacefun_com_1544082445](https://user-images.githubusercontent.com/43415122/49569212-feeafd80-f93b-11e8-97c3-edaedebffee7.jpg)
+ 2)mu = {0, 0}, cov = {1,1,0,1}
 ![photofacefun_com_1544082602](https://user-images.githubusercontent.com/43415122/49569336-512c1e80-f93c-11e8-8804-5b6921fb6e85.jpg)
-
+3)mu = {0, 0}, cov = {3,0,0,1}
 ![photofacefun_com_1544082684](https://user-images.githubusercontent.com/43415122/49569411-89336180-f93c-11e8-98d1-da7b27903020.jpg)
-![photofacefun_com_1544082758](https://user-images.githubusercontent.com/43415122/49569479-b4b64c00-f93c-11e8-9c0c-5173f0adb594.jpg)
+4)mu = {0, 0}, cov = {1,0,0,3}
+![photofacefun_com_1544082826](https://user-images.githubusercontent.com/43415122/49569524-d9aabf00-f93c-11e8-85f9-17f491115cb6.jpg)
+
 
 
