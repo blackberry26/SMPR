@@ -283,20 +283,23 @@ X -объект, состоящий из n признаков,
 **Примеры для таких центров и ковариационных матриц:**
 
 
- **1)mu = (0, 0), cov = ![2018-12-13 11-35-32_cut-photo ru](https://user-images.githubusercontent.com/43415122/49922981-da9e9c00-feba-11e8-81d5-b369ff9b0844.png)
- **
+ 1)mu = (0, 0), cov = ![2018-12-13 11-35-32_cut-photo ru](https://user-images.githubusercontent.com/43415122/49922981-da9e9c00-feba-11e8-81d5-b369ff9b0844.png)
+ 
                        
 ![photofacefun_com_1544082445](https://user-images.githubusercontent.com/43415122/49569212-feeafd80-f93b-11e8-97c3-edaedebffee7.jpg)
 
- **2)mu = (0, 0), cov = {1,1,0,1}**
+ 2)mu = (0, 0), cov = ![2018-12-13 11-40-13_cut-photo ru](https://user-images.githubusercontent.com/43415122/49923136-3c5f0600-febb-11e8-9251-ab26d0a3de04.png)
+
  
 ![photofacefun_com_1544082939](https://user-images.githubusercontent.com/43415122/49569622-1c6c9700-f93d-11e8-908a-e9190decbcc9.jpg)
 
-**3)mu = (0, 0), cov = {3,0,0,1}**
+3)mu = (0, 0), cov = ![2018-12-13 11-40-13_cut-photo ru 1](https://user-images.githubusercontent.com/43415122/49923162-4aad2200-febb-11e8-98e2-863bc5c38155.png)
+
 
 ![photofacefun_com_1544082684](https://user-images.githubusercontent.com/43415122/49569411-89336180-f93c-11e8-98d1-da7b27903020.jpg)
 
-**4)mu = (0, 0), cov = {1,0,0,3}**
+4)mu = (0, 0), cov = ![2018-12-13 11-40-13_cut-photo ru 2](https://user-images.githubusercontent.com/43415122/49923176-5a2c6b00-febb-11e8-8bf0-f1c7deb70493.png)
+
 
 ![photofacefun_com_1544082826](https://user-images.githubusercontent.com/43415122/49569524-d9aabf00-f93c-11e8-85f9-17f491115cb6.jpg)
 
