@@ -283,7 +283,7 @@ X -объект, состоящий из n признаков,
 **Примеры для таких центров и ковариационных матриц:**
 
 
- **1)mu = (0, 0), cov = 1![2018-12-13 11-35-32_cut-photo ru](https://user-images.githubusercontent.com/43415122/49922981-da9e9c00-feba-11e8-81d5-b369ff9b0844.png)
+ **1)mu = (0, 0), cov = ![2018-12-13 11-35-32_cut-photo ru](https://user-images.githubusercontent.com/43415122/49922981-da9e9c00-feba-11e8-81d5-b369ff9b0844.png)
  **
                        
 ![photofacefun_com_1544082445](https://user-images.githubusercontent.com/43415122/49569212-feeafd80-f93b-11e8-97c3-edaedebffee7.jpg)
