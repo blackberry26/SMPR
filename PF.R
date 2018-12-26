@@ -102,6 +102,6 @@ n = dim(xl)[1]
 Y = rep(0,n)
 text = paste("Map classificaton for PW(EP) with h = ", h)
 pot = potentials(xl,class,n,h,myError)
-#print(pot)
+
 drawPotentials(xl[,1:2], class, pot, h, colors)
 
