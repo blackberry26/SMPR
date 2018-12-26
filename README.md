@@ -318,6 +318,13 @@ X -объект, состоящий из n признаков,
 
 ![photofacefun_com_1544082826](https://user-images.githubusercontent.com/43415122/49569524-d9aabf00-f93c-11e8-85f9-17f491115cb6.jpg)
 
+Реализация в Shiny
+
+![default](https://user-images.githubusercontent.com/43415122/50457228-1a5d8d00-096b-11e9-9617-890145a2aed0.png)
+
+![default](https://user-images.githubusercontent.com/43415122/50457231-25182200-096b-11e9-9ee9-5b40b3a351a9.png)
+
+![default](https://user-images.githubusercontent.com/43415122/50457234-2c3f3000-096b-11e9-9da6-dda4c9299024.png)
 
 
 # Подстановочный алгоритм (Plug-in)
