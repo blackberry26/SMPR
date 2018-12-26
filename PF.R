@@ -27,7 +27,7 @@ class = names(which.max(weights))
 
 if(max(weights)==0){
 
-  return ("NA")
+  return ("No")
 }
 else{
   return (class)
