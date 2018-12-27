@@ -186,6 +186,9 @@
 
 Требуется построить алгоритм  ![default](https://user-images.githubusercontent.com/43415122/49168564-ce5a0100-f348-11e8-86f7-f7049cdbdc50.png), который по заданной выборке  ![default](https://user-images.githubusercontent.com/43415122/49168592-e0d43a80-f348-11e8-8c51-286156b22608.png) аппроксимирует отображение ![default](https://user-images.githubusercontent.com/43415122/49168627-f9dceb80-f348-11e8-86a3-4886eb92ce44.png).
 
+![pf_png](https://user-images.githubusercontent.com/43415122/50472460-8ec31b00-09c1-11e9-874d-c6b0afa123e8.png)
+
+
  **Алгоритм**
  
 *Вход*:Обучающая выборка из l пар «объект-ответ» ![default](https://user-images.githubusercontent.com/43415122/49168732-36a8e280-f349-11e8-8ce2-c8332bb410d4.png)
