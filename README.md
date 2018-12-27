@@ -11,7 +11,7 @@
   - [Подстановочный алгоритм](https://github.com/blackberry26/SMPR#подстановочный-алгоритмplug-in)
 - [Линейные классификаторы](https://github.com/blackberry26/SMPR#линейные-классификаторы)
   - [Метод стохастического градиента](https://github.com/blackberry26/SMPR#метод-стохастического-градиента)
-  - [ADALINE]
+  - [ADALINE](https://github.com/blackberry26/SMPR#adaline)
   - [Логистическая регрессия]
 
 # Метрические алгоритмы классификации
@@ -390,3 +390,6 @@ X -объект, состоящий из n признаков,
 Реализация:
 
 ![blackberry](https://user-images.githubusercontent.com/43415122/50470986-705a2100-09bb-11e9-9004-c5021c1a1004.png)
+
+
+# Логистическая регрессия
