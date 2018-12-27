@@ -284,7 +284,7 @@
 Метод обучения до крайности прост и сводится к вычислению параметров ![y](https://user-images.githubusercontent.com/43415122/50269761-092af280-0438-11e9-852c-df148ef6dbd9.gif) и ![k](https://user-images.githubusercontent.com/43415122/50269792-2790ee00-0438-11e9-83bb-cb319ea5aed5.gif) для всех и всех признаков.
 
 
-![2018-12-27 13-07-56](https://user-images.githubusercontent.com/43415122/50471937-718d4d00-09bf-11e9-83e5-1f55e2496236.png)
+![2018-12-27 13-14-08](https://user-images.githubusercontent.com/43415122/50472162-5111c280-09c0-11e9-96bc-ad948a5132e7.png)
 
 
 # Линии уровня нормального распределения
