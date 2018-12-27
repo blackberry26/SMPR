@@ -380,11 +380,78 @@ X -объект, состоящий из n признаков,
  
    ADALINE - адаптивный линейный элемент, в качестве функции потерь используется квадратичная функция потерь:
  ![k](https://user-images.githubusercontent.com/43415122/50470736-7ac7eb00-09ba-11e9-86e6-0dc5fa49354f.gif)
+  
   Градиентный шаг - дельта-правило ![default](https://user-images.githubusercontent.com/43415122/50470827-dabe9180-09ba-11e9-99f1-32aaea4aaa3f.gif)
+  
 Обучение ADALINE с помощью стохастического градиента:
 
-
-
+```diff
+ sg.ADALINE <- function(xl, eta = 1, lambda = 1/6)
+{
+  l <- dim(xl)[1]
+  n <- dim(xl)[2] - 1
+  w <- c(1/2, 1/2, 1/2)
+  iterCount <- 0
+  
+  # инициализация Q
+  Q <- 0
+  for (i in 1:l)
+  {
+   
+    wx <- sum(w * xl[i, 1:n]) # скалярное произведение <w,x>
+    
+    margin <- wx * xl[i, n + 1] # отступ
+    
+    Q <- Q + lossQuad(margin)
+  }
+  
+  repeat
+  {
+    #  выч отступ для все объектов обучаемой выборки
+    margins <- array(dim = l)
+    for (i in 1:l)
+    {
+      xi <- xl[i, 1:n]
+      yi <- xl[i, n + 1]
+      
+      margins[i] <- crossprod(w, xi) * yi
+    }
+    
+    
+    errorIndexes <- which(margins <= 0) # выбор ошибочных объектов
+    
+    if (length(errorIndexes) > 0)
+    {
+      # случайный выбор индексов из ошибок
+      i <- sample(errorIndexes, 1)
+      iterCount <- iterCount + 1
+      
+      xi <- xl[i, 1:n]
+      yi <- xl[i, n + 1]
+      
+      
+      wx <- sum(w * xi)# скалярноe произведения <w,xi>
+      
+      
+      margin <- wx * yi # производится шаг градиента
+      
+      # вычисление ошибок
+      ex <- lossQuad(margin)
+      eta <- 1 / sqrt(sum(xi * xi))
+      w <- w - eta * (wx - yi) * xi
+      
+      # вычисление нового Q
+      Qprev <- Q
+      Q <- (1 - lambda) * Q + lambda * ex
+    }
+    else
+    {
+      break
+    }
+  }
+  return (w)
+}
+```
 
 
 Реализация:
