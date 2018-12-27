@@ -12,7 +12,7 @@
 - [Линейные классификаторы](https://github.com/blackberry26/SMPR#линейные-классификаторы)
   - [Метод стохастического градиента](https://github.com/blackberry26/SMPR#метод-стохастического-градиента)
   - [ADALINE](https://github.com/blackberry26/SMPR#adaline)
-  - [Логистическая регрессия]
+  - [Логистическая регрессия](https://github.com/blackberry26/SMPR#логистическая-регрессия)
 
 # Метрические алгоритмы классификации
 
