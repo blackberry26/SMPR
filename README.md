@@ -404,6 +404,14 @@ X -объект, состоящий из n признаков,
 
 
  # Метод стохастического градиента
+ 
+ Для минимизации Q(w) применяется метод градиентного спуска. В начале выбирается некоторое начальное приближение вектора весов w. Инициализация весов может производиться разными способами. Стандартная рекомендация- взять небольшие случайные значения: <a href="https://www.codecogs.com/eqnedit.php?latex=w_{j}=random(-\frac{1}{2n},\frac{1}{2n})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w_{j}=random(-\frac{1}{2n},\frac{1}{2n})" title="w_{j}=random(-\frac{1}{2n},\frac{1}{2n})" /></a>, где n – количество признаков x.
+ Далее высчитывается текущая оценка функционала: ![2](https://user-images.githubusercontent.com/43415122/51698145-87238000-201a-11e9-84bc-30fa0d685e21.png)
+ 
+ Затем запускается итерационный процесс, на каждом шаге которого вектор w изменяется в сторону наиболее быстрого убывания Q. Это направление противоположно вектору градиента ![2](https://user-images.githubusercontent.com/43415122/51698198-a6baa880-201a-11e9-8753-2c036c0eda52.png). Соответственно веса меняются по правилу:
+ ![2](https://user-images.githubusercontent.com/43415122/51698225-b89c4b80-201a-11e9-9516-137134440fe4.png)
+где <a href="https://www.codecogs.com/eqnedit.php?latex=\eta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\eta" title="\eta" /></a> – темп обучения. 
+ 
  **Алгоритм:**
  
  *Вход*: ![m](https://user-images.githubusercontent.com/43415122/50270575-aa1aad00-043a-11e9-9264-414e26e6292c.gif) -выборка,
