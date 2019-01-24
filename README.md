@@ -9,7 +9,7 @@
   - [Наивный нормальный байесовский классификатор](https://github.com/blackberry26/SMPR#наивный-нормальный-байесовский-классификатор)
   - [Линии уровня нормального распределения](https://github.com/blackberry26/SMPR#линии-уровня-нормального-распределения)
   - [Подстановочный алгоритм](https://github.com/blackberry26/SMPR#подстановочный-алгоритм-plug-in)
-  - [Линейный дискриминант Фишера]((https://github.com/blackberry26/SMPR#линейный-дискриминант-фишера))
+  - [Линейный дискриминант Фишера](https://github.com/blackberry26/SMPR#линейный-дискриминант-фишера)
 - [Линейные классификаторы](https://github.com/blackberry26/SMPR#линейные-классификаторы)
   - [Метод стохастического градиента](https://github.com/blackberry26/SMPR#метод-стохастического-градиента)
   - [ADALINE](https://github.com/blackberry26/SMPR#adaline)
