@@ -9,6 +9,7 @@
   - [Наивный нормальный байесовский классификатор](https://github.com/blackberry26/SMPR#наивный-нормальный-байесовский-классификатор)
   - [Линии уровня нормального распределения](https://github.com/blackberry26/SMPR#линии-уровня-нормального-распределения)
   - [Подстановочный алгоритм](https://github.com/blackberry26/SMPR#подстановочный-алгоритм-plug-in)
+  - [Линейный дискриминант Фишера]((https://github.com/blackberry26/SMPR#линейный-дискриминант-фишера))
 - [Линейные классификаторы](https://github.com/blackberry26/SMPR#линейные-классификаторы)
   - [Метод стохастического градиента](https://github.com/blackberry26/SMPR#метод-стохастического-градиента)
   - [ADALINE](https://github.com/blackberry26/SMPR#adaline)
@@ -362,6 +363,33 @@ X -объект, состоящий из n признаков,
 3.Пример, когда менее плотный класс окружен более плотным
 
 ![3](https://user-images.githubusercontent.com/43415122/51692066-2b062f00-200d-11e9-9566-8cd3e0b0e234.png)
+
+# Линейный дискриминант Фишера
+
+Пусть ковариационные матрицы классов одинаковы и равны <a href="https://www.codecogs.com/eqnedit.php?latex=\Sigma" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Sigma" title="\Sigma" /></a>.  Оценим <a href="https://www.codecogs.com/eqnedit.php?latex=\widehat{\Sigma}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\widehat{\Sigma}" title="\widehat{\Sigma}" /></a> по всем m объектам выборки. С учетом поправки на смещенность, 
+
+![default](https://user-images.githubusercontent.com/43415122/51693977-f7c59f00-2010-11e9-9642-40b6fd97a399.png)
+
+В этом случае разделяющая поверхность линейна (кусочно-линейна). Подстановочный алгоритм имеет вид : 
+<a href="https://www.codecogs.com/eqnedit.php?latex=a(x)=arg\max_{y&space;\in&space;Y}&space;\lambda&space;_{y}P&space;_{y}\rho&space;_{y}(x)=&space;arg\max_{y&space;\in&space;Y}(ln(\lambda&space;_{y}P_{y})-\frac{1}{2}&space;\widehat{\mu}_{y}^{\top&space;}\Sigma&space;^{-1}\widehat{\mu&space;}_{y}&plus;x^{\top&space;}\Sigma&space;^{-1}\widehat{\mu&space;_{y}})=arg\max_{y&space;\in&space;Y}(x^{\top&space;}\alpha&space;_{y}&plus;\beta&space;_{y})." target="_blank"><img src="https://latex.codecogs.com/gif.latex?a(x)=arg\max_{y&space;\in&space;Y}&space;\lambda&space;_{y}P&space;_{y}\rho&space;_{y}(x)=&space;arg\max_{y&space;\in&space;Y}(ln(\lambda&space;_{y}P_{y})-\frac{1}{2}&space;\widehat{\mu}_{y}^{\top&space;}\Sigma&space;^{-1}\widehat{\mu&space;}_{y}&plus;x^{\top&space;}\Sigma&space;^{-1}\widehat{\mu&space;_{y}})=arg\max_{y&space;\in&space;Y}(x^{\top&space;}\alpha&space;_{y}&plus;\beta&space;_{y})." title="a(x)=arg\max_{y \in Y} \lambda _{y}P _{y}\rho _{y}(x)= arg\max_{y \in Y}(ln(\lambda _{y}P_{y})-\frac{1}{2} \widehat{\mu}_{y}^{\top }\Sigma ^{-1}\widehat{\mu }_{y}+x^{\top }\Sigma ^{-1}\widehat{\mu _{y}})=arg\max_{y \in Y}(x^{\top }\alpha _{y}+\beta _{y})." /></a>
+
+Этот алгоритм называется линейным дискриминантом Фишера (ЛДФ). 
+
+Он неплохо работает, когда формы классов действительно близки к норамльным и не слишком сильно различаются. в этом случае линейное решающее парвило близко к оптиамльному байесовскому, но существенно более устойчиво, чем квадратичное, и часто обладает лучшей обобщающей способностью.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  # Линейные классификаторы
  # Метод стохастического градиента
