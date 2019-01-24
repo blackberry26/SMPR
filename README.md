@@ -8,7 +8,7 @@
 - [Байесовские классификаторы](https://github.com/blackberry26/SMPR#Байесовские-классификаторы)
   - [Наивный нормальный байесовский классификатор](https://github.com/blackberry26/SMPR#наивный-нормальный-байесовский-классификатор)
   - [Линии уровня нормального распределения](https://github.com/blackberry26/SMPR#линии-уровня-нормального-распределения)
-  - [Подстановочный алгоритм](https://github.com/blackberry26/SMPR#подстановочный-алгоритмplug-in)
+  - [Подстановочный алгоритм](https://github.com/blackberry26/SMPR#подстановочный-алгоритм-plug-in)
 - [Линейные классификаторы](https://github.com/blackberry26/SMPR#линейные-классификаторы)
   - [Метод стохастического градиента](https://github.com/blackberry26/SMPR#метод-стохастического-градиента)
   - [ADALINE](https://github.com/blackberry26/SMPR#adaline)
@@ -337,14 +337,15 @@ X -объект, состоящий из n признаков,
 
 # Подстановочный алгоритм (Plug-in)
 
-Оценим параметры функций правдоподобия по частям обучающей выборки для каждого класса. Затем эти выборочные оценки подставим в оптимальный байесовский классификатор. Получим байесовский нормальный классификатор,который называется также подстановочным.
+Оценим параметры функций правдоподобия <a href="https://www.codecogs.com/eqnedit.php?latex=\widehat{\mu&space;_{y}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\widehat{\mu&space;_{y}}" title="\widehat{\mu _{y}}" /></a> и <a href="https://www.codecogs.com/eqnedit.php?latex=\widehat{\Sigma_{y}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\widehat{\Sigma_{y}}" title="\widehat{\Sigma_{y}}" /></a> по частям обучающей выборки <a href="https://www.codecogs.com/eqnedit.php?latex=\chi&space;_{y}^{l}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\chi&space;_{y}^{l}" title="\chi _{y}^{l}" /></a> для каждого класса y <a href="https://www.codecogs.com/eqnedit.php?latex=\in" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\in" title="\in" /></a> Y. Затем эти выборочные оценки подставим в оптимальный байесовский классификатор. Получим байесовский нормальный классификатор,который называется также *подстановочным*.
 
-В асимптотике оценки обладают рядом оптимальных свойств: они не смещены, состоятельны и эффективны. Однако оценки,сделанные по коротким выборкам,могут быть не достаточно точными.
+В асимптотике <a href="https://www.codecogs.com/eqnedit.php?latex=l_{y}&space;\rightarrow&space;\propto" target="_blank"><img src="https://latex.codecogs.com/gif.latex?l_{y}&space;\rightarrow&space;\propto" title="l_{y} \rightarrow \propto" /></a> оценки  <a href="https://www.codecogs.com/eqnedit.php?latex=\widehat{\mu&space;_{y}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\widehat{\mu&space;_{y}}" title="\widehat{\mu _{y}}" /></a> и <a href="https://www.codecogs.com/eqnedit.php?latex=\widehat{\Sigma_{y}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\widehat{\Sigma_{y}}" title="\widehat{\Sigma_{y}}" /></a> обладают рядом оптимальных свойств: они **не смещены, состоятельны и эффективны**. Однако оценки,сделанные по коротким выборкам,могут быть не достаточно точными.
 
-**Недостатки** подстановочного алгоритма вытекают из нескольких чрезмерно сильных базовых предположений,которые на практике часто не выполняются.
+**Недостатки** *подстановочного алгоритма* вытекают из нескольких чрезмерно сильных базовых предположений,которые на практике часто не выполняются.
 
  - Функции правдоподобия классов могут существенно отличаться от гауссовских.В частности, когда имеются признак,принимающие дискретные значени или когда классы распадаются на изолированные сгустки.
  - Если длина выборки меньше размерности пространства или среди признаков есть линейно зависимые, то матрица становится вырожденной. В этом случае обратная матрица не существет и метод вообще неприменим.
+ - Выборочные оценки чувствительны к нарушениям нормальности распределений, в частности,  к редким большим выбросам.
 
 
  # Линейные классификаторы
