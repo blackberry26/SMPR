@@ -14,7 +14,7 @@
   - [Метод стохастического градиента](https://github.com/blackberry26/SMPR#метод-стохастического-градиента)
   - [ADALINE](https://github.com/blackberry26/SMPR#adaline)
   - [Логистическая регрессия](https://github.com/blackberry26/SMPR#логистическая-регрессия)
-  - [Персептрон Розенблатта]((https://github.com/blackberry26/SMPR#персептрон-розенблатта)
+  - [Персептрон Розенблатта](https://github.com/blackberry26/SMPR#персептрон-розенблатта)
   
 # Метрические алгоритмы классификации
 
