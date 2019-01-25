@@ -288,6 +288,14 @@
 В этом случае проблемы вырожденности  и мультиколлинеарности не возникают.
 Метод обучения до крайности прост и сводится к вычислению параметров ![y](https://user-images.githubusercontent.com/43415122/50269761-092af280-0438-11e9-852c-df148ef6dbd9.gif) и ![k](https://user-images.githubusercontent.com/43415122/50269792-2790ee00-0438-11e9-83bb-cb319ea5aed5.gif) для всех и всех признаков.
 
+По каждому признаку отдельно в каждом классе высчитаем матожидание и дисперсию и подставив в плотность получим:
+
+![default](https://user-images.githubusercontent.com/43415122/51758999-3c683d80-20d8-11e9-8027-6be0b39773a6.png)
+
+где <a href="https://www.codecogs.com/eqnedit.php?latex=\widehat{\mu&space;_{yj}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\widehat{\mu&space;_{yj}}" title="\widehat{\mu _{yj}}" /></a>  и <a href="https://www.codecogs.com/eqnedit.php?latex=\widehat{\sigma&space;_{yj}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\widehat{\sigma&space;_{yj}}" title="\widehat{\sigma _{yj}}" /></a> - оценки матожидания и дисперсии j-го признака, вычисленные по <a href="https://www.codecogs.com/eqnedit.php?latex=X_{y}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X_{y}" title="X_{y}" /></a> - подвыборке класса y.
+
+Результат классификации классов, имеющих разные матрицы ковариации и карта классификации всех объектов: 
+
 
 ![2018-12-27 13-14-08](https://user-images.githubusercontent.com/43415122/50472162-5111c280-09c0-11e9-96bc-ad948a5132e7.png)
 
