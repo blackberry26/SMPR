@@ -10,12 +10,13 @@
   - [Линии уровня нормального распределения](https://github.com/blackberry26/SMPR#линии-уровня-нормального-распределения)
   - [Подстановочный алгоритм](https://github.com/blackberry26/SMPR#подстановочный-алгоритм-plug-in)
   - [Линейный дискриминант Фишера](https://github.com/blackberry26/SMPR#линейный-дискриминант-фишера)
+  - [ЕМ-алгоритм](https://github.com/blackberry26/SMPR#ем-алгоритм)
 - [Линейные классификаторы](https://github.com/blackberry26/SMPR#линейные-классификаторы)
   - [Метод стохастического градиента](https://github.com/blackberry26/SMPR#метод-стохастического-градиента)
   - [ADALINE](https://github.com/blackberry26/SMPR#adaline)
   - [Логистическая регрессия](https://github.com/blackberry26/SMPR#логистическая-регрессия)
   - [Персептрон Розенблатта](https://github.com/blackberry26/SMPR#персептрон-розенблатта)
-  
+  - [Метод опорных векторов](https://github.com/blackberry26/SMPR#метод-опорных-векторов)
 # Метрические алгоритмы классификации
 
 **Гипотеза компактности.** Схожим объектам соответствуют схожие ответы.
@@ -397,6 +398,19 @@ X -объект, состоящий из n признаков,
 3.Разные дисперсии:
 ![3](https://user-images.githubusercontent.com/43415122/51696669-0fa02180-2017-11e9-9ab1-49c57cc39832.png)
 
+
+ # ЕМ-алгоритм
+
+Класс не во всех случаях можно описать одним распределением. Иногда класс представляет собой смесь распределений. В этом случае функция правдоподобия p(x) вычисляется по формуле:
+
+![default](https://user-images.githubusercontent.com/43415122/51762159-029b3500-20e0-11e9-8dc9-487c45777b76.png)
+
+где j - номер компоненты смеси, <a href="https://www.codecogs.com/eqnedit.php?latex=w_{j}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w_{j}" title="w_{j}" /></a> - её апостериорная вероятность. Задача разделения смеси состоит в том, чтобы имея обучающую выборку, выделить из неё компоненты смеси, и оценить вектор параметров ![default](https://user-images.githubusercontent.com/43415122/51762223-32e2d380-20e0-11e9-920b-d594454ab019.png).
+
+Для разделения смеси применяется EM-алгоритм. Он состоит из двух больших шагов: E (expectation) - шага и M (maximization) - шага. В начале алгоритма задаётся начальное приближение <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta" title="\theta" /></a>, затем на E - шаге по <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta" title="\theta" /></a> вычисляется вектор скрытых переменных G. На M - шаге по текущим значениям G и <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta" title="\theta" /></a> вычисляется новое значение <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta" title="\theta" /></a>. Процесс повторяется, пока G и <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta" title="\theta" /></a> не стабилизируются.
+
+
+
 # Линейные классификаторы
 
 Пусть ![3](https://user-images.githubusercontent.com/43415122/51696876-981ec200-2017-11e9-8c7a-bfe558ba35ca.png) и ![2](https://user-images.githubusercontent.com/43415122/51696890-a1a82a00-2017-11e9-9e93-9a446bb53f11.png).
@@ -582,9 +596,23 @@ X -объект, состоящий из n признаков,
 2.Выборки невозможно разделить прямой
 ![2](https://user-images.githubusercontent.com/43415122/51709814-784bc600-2038-11e9-8e1c-e5568538ff29.png)
 
+# Метод опорных векторов
+
+**SVM** - алгоритм классификации, считающийся одним из самых лучших. Он назван так, потому что положение разделяющей классы гиперплоскости зависит лишь от небольшого количества элементов обучающей выборки. Они и называются опорными векторами.
+
+С помощью функции ядра метод обобщается на случай нелинейных разделяющих поверхностей. По сути вид поверхности зависит от используемой функции ядра.
+
+Если выборка линейно разделима, то почти всегда провести разделяющую поверхность можно не единственным образом. В **SVM** она выбирается таким образом, чтобы она отстояла максимально далеко от обоих классов. Умножим алгоритм a(x) на некоторую константу так, чтобы минимальный отступ в каждом классе был равен единице. Тогда полосу, разделяющую классы описывает множество точек: 
+
+![default](https://user-images.githubusercontent.com/43415122/51762457-d3d18e80-20e0-11e9-8be4-c636670579fb.png)
+
+Границами полосы служат две гиперплоскости, на которых лежат объекты с минимальным отступом. Ширина полосы вычисляется по формуле: 
+
+![default](https://user-images.githubusercontent.com/43415122/51762503-fa8fc500-20e0-11e9-8373-ce0bbd91ec1e.png)
 
 
-
+Для линейно неразделимой выборки разрешим алгоритму допускать некоторое число ошибок при классификации (т. е. разрешим объектам попадать внутрь разделяющей полосы). Для этого введём дополнительные переменные <a href="https://www.codecogs.com/eqnedit.php?latex=\xi&space;_{i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\xi&space;_{i}" title="\xi _{i}" /></a>, означающие величину ошибки на объекте i. Тогда выражение ![default](https://user-images.githubusercontent.com/43415122/51762579-2dd25400-20e1-11e9-8fb0-b5070e444f36.png)
+ (мы хотим минимизировать норму вектора w) превратится в  ![default](https://user-images.githubusercontent.com/43415122/51762637-4e9aa980-20e1-11e9-81e0-103da34b07a7.png), где C - управляющий параметр, позволяющий находить компромисс между максимизацией ширины полосы и минимизацией суммарной ошибки.
 
 
 
